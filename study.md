@@ -21,7 +21,8 @@ How does Ember use the URL to load view-state? Which layers in Ember are
 responsible for which tasks?
 
 ```md
-<!-- your answer here -->
+The url calls which templates and components are nesseary for the state of the program. The view dictates what
+the client sees. The model is categories of data and the view model is the bridge between the 2.
 ```
 
 ## Deploying Ember
@@ -31,5 +32,5 @@ your deployed Ember app? What do you need if you want to use the `history` API
 instead of `hash` for `location`?
 
 ```md
-<!-- your answer here -->
+You can pass an implementation name (hash, history, none) to force a particular implementation to be used in your application.
 ```
